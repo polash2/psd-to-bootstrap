@@ -1,0 +1,39 @@
+@media (max-width: 767px) {
+    .menulist {
+        float: right;
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    .nav_style ul li {
+
+        text-transform: uppercase;
+        padding: 0 3px;
+    }
+    .menulist ul li {
+        padding: 0px 12px;
+        float: left;
+        list-style: none;
+    }
+    .privacy {
+        font-size: 16px;
+        color: #606060;
+        margin-top: 38px;
+    }
+}
+
+@media (min-width:992px) and (max-width: 1199px) {
+    .nav_style ul li {
+        text-transform: uppercase;
+        padding: 0 21px;
+    }
+    .menulist ul li {
+        padding: 0px 14px;
+        float: left;
+        list-style: none;
+    }
+}
+
+
+@media (min-width:1200px) {}
